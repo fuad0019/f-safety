@@ -28,7 +28,7 @@ const History = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/history_inner_bg.jpg)" }}
+          style={{ backgroundImage: "url(images/8.jpeg)" }}
         />
         <div className="container">
           <h1
@@ -36,12 +36,12 @@ const History = () => {
             data-splitting="chars"
             data-animate="active"
           >
-            Our History
+            Training
           </h1>
         </div>
       </section>
       {/* Section Quote */}
-      <section className="section kf-quote">
+      {/* <section className="section kf-quote">
         <div className="container">
           <div className="kf-parallax-icon pi-4" data-jarallax-element={-60}>
             <div
@@ -74,7 +74,7 @@ const History = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section History */}
       <section className="section kf-history section-bg">
         <div className="container">
@@ -83,13 +83,13 @@ const History = () => {
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
             >
-              OurKAFE History
+            
             </div>
             <h3
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Something Know About Our History
+            Front line safety Training offers specialised training to equip security personnel with the skills needed for ensuring safety at events.
             </h3>
           </div>
           <div className="kf-history-carousel">
@@ -101,29 +101,25 @@ const History = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="images/history1.jpg" alt="image" />
+                      <img src="images/6.jpeg" alt="image" />
                     </div>
                     <div className="desc">
                       <div className="subname">
-                      KAFE restaurant was founded
+                  
                       </div>
                       <h5 className="name">
-                        Three Front-End Auditing Tools I Discovered Recently
-                        Useful Front-End Boilerplates
+                      Training and Development
                       </h5>
                       <div className="kf-text">
                         <p>
-                          Sorem ipsum dolor sit am consectetur adipiscing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore
-                          magna aliqua. Quis ipsum suspendi sultrices gravida.
-                          Risus commodo viverra maecenas cumsan lacus vel
-                          facilisis.
+                    
+The Frontline Training department offers a unique blend of credible event security experience and educational partnerships. Front line safety provide training that ranges from entry-level skills to management degrees.
                         </p>
                       </div>
                     </div>
                     <div className="date">1996</div>
                     <div className="label">25 January 1996</div>
-                    <div className="date-value">1996</div>
+                    <div className="date-value">Training</div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
@@ -132,27 +128,23 @@ const History = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="images/history2.jpg" alt="image" />
+                      <img src="images/4.jpg" alt="image" />
                     </div>
                     <div className="desc">
-                      <div className="subname">We started cooking for you</div>
+                      <div className="subname"></div>
                       <h5 className="name">
-                        Three Front-End Auditing Tools I Discovered Recently
-                        Useful Front-End Boilerplates
+                      
                       </h5>
                       <div className="kf-text">
                         <p>
-                          Sorem ipsum dolor sit am consectetur adipiscing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore
-                          magna aliqua. Quis ipsum suspendi sultrices gravida.
-                          Risus commodo viverra maecenas cumsan lacus vel
-                          facilisis.
+                         
+Shaping the Future: Front line's Management Development Programme (MDP) Has Been Transforming The Live Events Sector Since 2019
                         </p>
                       </div>
                     </div>
                     <div className="date">1998</div>
                     <div className="label">14 December 1998</div>
-                    <div className="date-value">1998</div>
+                    <div className="date-value">Managment</div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
@@ -161,27 +153,23 @@ const History = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="images/history3.jpg" alt="image" />
+                      <img src="images/8.jpeg" alt="image" />
                     </div>
                     <div className="desc">
-                      <div className="subname">We got a Michelin star</div>
+                      <div className="subname"></div>
                       <h5 className="name">
-                        Three Front-End Auditing Tools I Discovered Recently
-                        Useful Front-End Boilerplates
+                      eLearning
                       </h5>
                       <div className="kf-text">
                         <p>
-                          Sorem ipsum dolor sit am consectetur adipiscing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore
-                          magna aliqua. Quis ipsum suspendi sultrices gravida.
-                          Risus commodo viverra maecenas cumsan lacus vel
-                          facilisis.
+                     
+When designing and developing eLearning, we keep our learners in mind throughout each step of the process. From defining learning outcomes, to designing activities where they can practice what they have learned.
                         </p>
                       </div>
                     </div>
-                    <div className="date">2004</div>
-                    <div className="label">10 June 2004</div>
-                    <div className="date-value">2004</div>
+                    <div className="date">2024</div>
+                    <div className="label">10 June 2024</div>
+                    <div className="date-value">E-learning</div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
@@ -190,15 +178,14 @@ const History = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="images/history4.jpg" alt="image" />
+                      <img src="images/5.jpg" alt="image" />
                     </div>
                     <div className="desc">
                       <div className="subname">
-                        A new restaurant was opened in Paris
+                        
                       </div>
                       <h5 className="name">
-                        Three Front-End Auditing Tools I Discovered Recently
-                        Useful Front-End Boilerplates
+                      Event Safety Training
                       </h5>
                       <div className="kf-text">
                         <p>
@@ -211,8 +198,8 @@ const History = () => {
                       </div>
                     </div>
                     <div className="date">2008</div>
-                    <div className="label">15 October 2008</div>
-                    <div className="date-value">2008</div>
+                    <div className="label">15 October 2023</div>
+                    <div className="date-value">Safety</div>
                   </div>
                 </SwiperSlide>
               </div>
@@ -229,7 +216,7 @@ const History = () => {
         </div>
       </section>
       {/* Section Brands */}
-      <div className="section kf-brands">
+      {/* <div className="section kf-brands">
         <div className="container">
           <div className="kf-brands-items row">
             <div className="col-xs-12 col-sm-12 col-md-3 col-lg-2">
@@ -294,7 +281,7 @@ const History = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Section Latest Blog */}
       <section className="section kf-latest-blog section-bg">
         <div className="container">
@@ -320,12 +307,12 @@ const History = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog1.jpg" alt="image" />
+                    <img src="images/2.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    SWR React Hooks With Next Increm Ental Static Regeneration
+                    The best way to keep your home safe is to install a security system
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
@@ -345,12 +332,12 @@ const History = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog2.jpg" alt="image" />
+                    <img src="images/7.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    Decisions For Building Flexible Components DevTools Browser
+                   keep your home safe is to install a security system
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
@@ -370,12 +357,12 @@ const History = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog3.jpg" alt="image" />
+                    <img src="images/6.jpeg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    SWR React Hooks With Next Increm Ental Static Regeneration
+                    The best way to keep your home safe is to install a security system
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
@@ -404,7 +391,7 @@ const History = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
+        style={{ backgroundImage: "url(images/6.jpeg)" }}
       >
         <div className="container">
           <div className="row">
@@ -414,23 +401,23 @@ const History = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Need a Table On Coffee House
+              
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Booking Table For Your &amp; Family Members
+                 Need a security system for your home?
                 </h3>
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
               <Link
-                href="reservation"
+                href="contacts"
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>booking table</span>
+                <span>Regsiter training</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>

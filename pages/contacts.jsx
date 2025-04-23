@@ -9,7 +9,7 @@ const Contacts = () => {
         <div
           className="kf-parallax-bg js-parallax"
           style={{
-            backgroundImage: "url(images/menu_reservation_inner_bg.jpg)",
+            backgroundImage: "url(images/7.jpg)",
           }}
         />
         <div className="container">
@@ -171,9 +171,9 @@ const Contacts = () => {
         </div>
       </section>
       {/* Section Insta Carousel */}
-      <InstaCarousel />
+      {/* <InstaCarousel /> */}
       {/* Section Brands */}
-      <div className="section kf-brands">
+      {/* <div className="section kf-brands">
         <div className="container">
           <div className="kf-brands-items row">
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
@@ -238,7 +238,7 @@ const Contacts = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layouts>
   );
 };

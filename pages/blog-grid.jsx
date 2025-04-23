@@ -8,7 +8,7 @@ const BlogGrid = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/blog_inner_bg.jpg)" }}
+          style={{ backgroundImage: "url(images/5.jpg)" }}
         />
         <div className="container">
           <h1
@@ -16,7 +16,7 @@ const BlogGrid = () => {
             data-splitting="chars"
             data-animate="active"
           >
-            Blog Grid
+           News
           </h1>
         </div>
       </section>
@@ -34,7 +34,7 @@ const BlogGrid = () => {
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Read Some Latest Blog &amp; News
+           Keep up to date with Front line news, including latest projects, contract wins, awards and general news from the events industry.
             </h3>
           </div>
           <div className="kf-blog-grid-items row">
@@ -45,17 +45,16 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog1.jpg" alt="image" />
+                    <img src="images/4.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    Coffee makes you poop during the day because it affects your
-                    digestive
+                  Celebrating 10 Years of Frontline at copenhagen
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
-                    25 Sep 2021
+                    25 Sep 2023
                   </div>
                   <div className="kf-comm">
                     <i className="far fa-comments" />
@@ -71,12 +70,12 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog2.jpg" alt="image" />
+                    <img src="images/8.jpeg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    Coffee with added milk provides all the macro nutrients in
+                  Derfor skal du vælge Mano Securitymilk provides all the macro nutrients in
                     good amounts
                   </h5>
                   <div className="kf-date">
@@ -97,7 +96,7 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog3.jpg" alt="image" />
+                    <img src="images/5.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -123,13 +122,12 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/history1.jpg" alt="image" />
+                    <img src="images/6.jpeg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    Coffee makes you poop during the day because it affects your
-                    digestive
+                   at front line we are talking about the future of security
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
@@ -149,13 +147,12 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/history2.jpg" alt="image" />
+                    <img src="images/7.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    Coffee with added milk provides all the macro nutrients in
-                    good amounts
+                 Front line Safety is a leading provider of security solutions in the Denmark
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
@@ -175,13 +172,12 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/history3.jpg" alt="image" />
+                    <img src="images/8.jpeg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    For most people, moderate coffee consumption can be
-                    incorporated
+                  when it comes to security, we are the best in the business
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
@@ -210,7 +206,7 @@ const BlogGrid = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
+        style={{ backgroundImage: "url(images/6.jpeg)" }}
       >
         <div className="container">
           <div className="row">
@@ -220,23 +216,23 @@ const BlogGrid = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Need a Table On Coffee House
+                
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Booking Table For Your &amp; Family Members
+               Need a security solution for your business?
                 </h3>
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
               <Link
-                href="reservation"
+                href="contacts"
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>booking table</span>
+                <span>contact us</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>
@@ -244,7 +240,7 @@ const BlogGrid = () => {
         </div>
       </section>
       {/* Section Brands */}
-      <div className="section kf-brands">
+      {/* <div className="section kf-brands">
         <div className="container">
           <div className="kf-brands-items row">
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
@@ -309,7 +305,7 @@ const BlogGrid = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layouts>
   );
 };

@@ -8,7 +8,7 @@ const Services = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/services_inner_bg.jpg)" }}
+          style={{ backgroundImage: "url(images/6.jpeg)" }}
         />
         <div className="container">
           <h1
@@ -21,7 +21,7 @@ const Services = () => {
         </div>
       </section>
       {/* Section Services */}
-      <section className="section kf-services">
+      {/* <section className="section kf-services">
         <div className="container">
           <div className="kf-titles align-center">
             <div
@@ -34,7 +34,7 @@ const Services = () => {
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-            KAFE Services One
+             Services One
             </h3>
           </div>
           <div className="kf-services-items row">
@@ -44,13 +44,13 @@ const Services = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <img src="images/service1.jpg" alt="image" />
+                  <img src="images/8.jpeg" alt="image" />
                 </div>
                 <div className="desc">
                   <div className="icon">
                     <i className="las la-utensils" />
                   </div>
-                  <h5 className="name">Food Services</h5>
+                  <h5 className="name">Adgangskontrol & Billet Scanning</h5>
                 </div>
               </div>
             </div>
@@ -60,13 +60,13 @@ const Services = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <img src="images/service2.jpg" alt="image" />
+                  <img src="images/7.jpg" alt="image" />
                 </div>
                 <div className="desc">
                   <div className="icon">
                     <i className="las la-coffee" />
                   </div>
-                  <h5 className="name">Coffee Club</h5>
+                  <h5 className="name">Overvågning & Monitorering</h5>
                 </div>
               </div>
             </div>
@@ -76,21 +76,21 @@ const Services = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <img src="images/service3.jpg" alt="image" />
+                  <img src="images/4.jpg" alt="image" />
                 </div>
                 <div className="desc">
                   <div className="icon">
                     <i className="las la-glass-cheers" />
                   </div>
-                  <h5 className="name">Delicious Latte</h5>
+                  <h5 className="name">Brandsikkerhed / Beredskabsplanlægning</h5>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Numbers-2 */}
-      <section className="section kf-numbers-2 section-bg">
+      {/* <section className="section kf-numbers-2 section-bg">
         <div className="container">
           <div className="kf-titles align-center">
             <div
@@ -221,7 +221,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Services-2 */}
       <section className="section kf-services">
         <div className="container">
@@ -230,13 +230,13 @@ const Services = () => {
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Our awesome
+              Our Core Services
             </div>
             <h3
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-            KAFE Services Three
+          
             </h3>
           </div>
           <div className="kf-services-items-2 row">
@@ -246,11 +246,11 @@ const Services = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/service_icon1.png" alt="image" />
+                  <img src="images/shield.svg" alt="image" />
                 </div>
                 <div className="desc">
-                  <h5 className="name">Birthday Cakes</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+                  <h5 className="name">Eventsikkerhed</h5>
+                  <div className="subname">Hos Frontline Safety er din tryghed vores prioritet. Vi tilbyder professionel eventsikkerhed til alle typer arrangementer – store som små.</div>
                 </div>
               </div>
             </div>
@@ -260,11 +260,11 @@ const Services = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/service_icon2.png" alt="image" />
+                  <img src="images/crowd.png" alt="image" />
                 </div>
                 <div className="desc">
-                  <h5 className="name">Fresh Foods</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+                  <h5 className="name">Crowd Management</h5>
+                  <div className="subname">Effektiv crowd management er nøglen til et vellykket og sikkert event. Hos Frontline Safety arbejder vi proaktivt for at styre menneskemængder og undgå farlige situationer, før de opstår.</div>
                 </div>
               </div>
             </div>
@@ -274,11 +274,11 @@ const Services = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/service_icon3.png" alt="image" />
+                  <img src="images/vip.png" alt="image" />
                 </div>
                 <div className="desc">
-                  <h5 className="name">Skills Chefs</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+                  <h5 className="name">VIP Beskyttelse</h5>
+                  <div className="subname">Diskretion, professionalisme og situationsfornemmelse er nøgleordene i vores VIP-beskyttelse. Frontline Safety tilbyder skræddersyede sikkerhedsløsninger</div>
                 </div>
               </div>
             </div>
@@ -288,11 +288,11 @@ const Services = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/service_icon4.png" alt="image" />
+                  <img src="images/lock.svg" alt="image" />
                 </div>
                 <div className="desc">
-                  <h5 className="name">Organic Juice</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+                  <h5 className="name">Adgangskontrol & Billet Scanning</h5>
+                  <div className="subname">En sikker og effektiv indgang er første skridt mod et vellykket event. Hos Frontline Safety tilbyder vi professionel adgangskontrol og moderne billetscanning, der minimerer køer og maksimerer sikkerheden.</div>
                 </div>
               </div>
             </div>
@@ -302,7 +302,7 @@ const Services = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
+        style={{ backgroundImage: "url(images/6.jpeg)" }}
       >
         <div className="container">
           <div className="row">
@@ -312,23 +312,23 @@ const Services = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Need a Table On Coffee House
+                
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Booking Table For Your &amp; Family Members
+               Need a security service?
                 </h3>
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
               <Link
-                href="reservation"
+                href="contacts"
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>booking table</span>
+                <span>get touch </span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>

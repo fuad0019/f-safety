@@ -20,22 +20,22 @@ const Index = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(images/started_img7.jpg)" }}
+                  style={{ backgroundImage: "url(images/6.jpeg)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
-                    <div className="subtitles">Welcome to The KAFE</div>
+                    
                     <h2 className="name text-anim-1" data-splitting="chars">
-                      Reserve Your <br />
-                      Table Today
+                    Professionel sikkerhed  <br />
+                    til ethvert arrangement
                     </h2>
                     <div className="kf-bts">
-                      <Link href="menu-restaurant" className="kf-btn">
-                        <span>explore more</span>
+                      <Link href="services" className="kf-btn">
+                        <span>udforske mere</span>
                         <i className="fas fa-chevron-right" />
                       </Link>
-                      <Link href="reservation" className="kf-btn dark-btn">
-                        <span>get delivery</span>
+                      <Link href="contacts" className="kf-btn dark-btn">
+                        <span>få kontakt med</span>
                         <i className="fas fa-chevron-right" />
                       </Link>
                     </div>
@@ -47,22 +47,22 @@ const Index = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(images/started_img5.jpg)" }}
+                  style={{ backgroundImage: "url(images/hero.jpeg)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
-                    <div className="subtitles">Welcome to theKAFE</div>
+                    {/* <div className="subtitles">Welcome to theKAFE</div> */}
                     <h2 className="name text-anim-1" data-splitting="chars">
-                      Explore The <br />
-                      Lobsters
+                    Din sikkerhed. <br />
+                    Vores ansvar
                     </h2>
                     <div className="kf-bts">
-                      <Link href="menu-restaurant" className="kf-btn">
-                        <span>explore more</span>
+                      <Link href="services" className="kf-btn">
+                        <span>udforske mere</span>
                         <i className="fas fa-chevron-right" />
                       </Link>
-                      <Link href="reservation" className="kf-btn dark-btn">
-                        <span>get delivery</span>
+                      <Link href="contacts" className="kf-btn dark-btn">
+                        <span>få kontakt med</span>
                         <i className="fas fa-chevron-right" />
                       </Link>
                     </div>
@@ -74,22 +74,22 @@ const Index = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(images/started_img6.jpg)" }}
+                  style={{ backgroundImage: "url(images/8.jpeg)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
-                    <div className="subtitles">Welcome to theKAFE</div>
+                    {/* <div className="subtitles">Welcome to theKAFE</div> */}
                     <h2 className="name text-anim-1" data-splitting="chars">
-                      Premium <br />
-                      MeatKAFE
+                    Når det handler om sikkerhed, <br />
+                    går vi forrest
                     </h2>
                     <div className="kf-bts">
-                      <Link href="menu-restaurant" className="kf-btn">
-                        <span>explore more</span>
+                      <Link href="services" className="kf-btn">
+                        <span>udforske mere</span>
                         <i className="fas fa-chevron-right" />
                       </Link>
-                      <Link href="reservation" className="kf-btn dark-btn">
-                        <span>get delivery</span>
+                      <Link href="contacts" className="kf-btn dark-btn">
+                        <span>få kontakt med</span>
                         <i className="fas fa-chevron-right" />
                       </Link>
                     </div>
@@ -117,41 +117,42 @@ const Index = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="menu-restaurant">
-                      <img src="images/category1.jpg" alt="image" />
+                      <img src="images/7.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
-                    <h5 className="name">Chiken Roll</h5>
+                    <h5 className="name">Eventsikkerhed</h5>
                   </div>
                 </div>
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="menu-restaurant">
-                      <img src="images/category2.jpg" alt="image" />
+                      <img src="images/crowd.jpeg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
-                    <h5 className="name">Salad Bowl</h5>
+                    <h5 className="name">Crowd Management
+                    </h5>
                   </div>
                 </div>
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="menu-restaurant">
-                      <img src="images/category3.jpg" alt="image" />
+                      <img src="images/6.jpeg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
-                    <h5 className="name">Lobsters</h5>
+                    <h5 className="name">VIP Beskyttelse</h5>
                   </div>
                 </div>
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="menu-restaurant">
-                      <img src="images/ins_gal1.jpg" alt="image" />
+                      <img src="images/8.jpeg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
-                    <h5 className="name">Italian Burger</h5>
+                    <h5 className="name">Adgangskontrol & Billet Scanning</h5>
                   </div>
                 </div>
               </div>
@@ -162,14 +163,14 @@ const Index = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Popular Categories
+                  Vores Tjenester
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Choose Your Best Food <br />
-                  From Categories
+             vores kerneydelse, <br />
+             men ikke begrænset
                 </h3>
               </div>
               <div
@@ -177,19 +178,15 @@ const Index = () => {
                 data-animate="active"
               >
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error accusantium
-                  doloremque laudantium, totam rem aperiam eaque ipsa quae
-                  abillo inventore veritatis quasi architecto beatae vitae dicta
-                  sunt explicabo. Nemo enim ipsluptatem quia voluptas sit
-                  aspernatur aut odit aut fugit sed quia con
+                Velkommen til Frontline Safety, Danmarks mest betroede crowd management-, spillesteds- og eventsikkerhedsspecialist, med et internationalt ry for fremragende kvalitet.
                 </p>
               </div>
               <Link
-                href="menu-restaurant"
+                href="services"
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>explore more Category</span>
+                <span>udforske flere tjenester</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>
@@ -197,7 +194,7 @@ const Index = () => {
         </div>
       </section>
       {/* Section Menu */}
-      <section className="section kf-menu-classic section-bg">
+      {/* <section className="section kf-menu-classic section-bg">
         <div className="container">
           <div className="kf-titles align-center">
             <div
@@ -389,9 +386,9 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Team */}
-      <section className="section kf-team kf-section-transparent">
+      {/* <section className="section kf-team kf-section-transparent">
         <div className="container">
           <div className="kf-titles align-center">
             <div
@@ -542,9 +539,9 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Reservation */}
-      <section className="section kf-reservation kf-section-no-margin">
+      {/* <section className="section kf-reservation kf-section-no-margin">
         <div className="container">
           <div
             className="kf-reservation-form element-anim-1 scroll-animate"
@@ -627,9 +624,9 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section About-2 */}
-      <section
+      {/* <section
         className="section kf-about-2"
         style={{ backgroundImage: "url(images/category_bg.jpg)" }}
       >
@@ -751,18 +748,18 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Testimonials Carousel */}
-      <TestimonialsCarousel />
+     
       {/* Section Video */}
-      <div className="section kf-video kf-video-full">
+      {/* <div className="section kf-video kf-video-full">
         <VideoPlayer
           videoBg={"images/video_bg.jpg"}
           extraClass={"kf-parallax"}
         />
-      </div>
+      </div> */}
       {/* Section Numbers-2 */}
-      <section className="section kf-numbers-2 section-bg">
+      {/* <section className="section kf-numbers-2 section-bg">
         <div className="container">
           <div className="kf-numbers-items-2 row">
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
@@ -827,11 +824,11 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
+        style={{ backgroundImage: "url(images/6.jpeg)" }}
       >
         <div className="container">
           <div className="row">
@@ -841,23 +838,23 @@ const Index = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Need a Table On Coffee House
+                 
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Booking Table For Your &amp; Family Members
+               Need a Security Service?
                 </h3>
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
               <Link
-                href="reservation"
+                href="contacts"
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>booking table</span>
+                <span>Contact us</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>
@@ -882,19 +879,19 @@ const Index = () => {
             </h3>
           </div>
           <div className="kf-blog-grid-items row">
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
               <div
                 className="kf-blog-grid-item element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog1.jpg" alt="image" />
+                    <img src="images/2.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    SWR React Hooks With Next Increm Ental Static Regeneration
+                    The best way to keep your home safe is to install a security system
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
@@ -907,19 +904,19 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
               <div
                 className="kf-blog-grid-item element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog2.jpg" alt="image" />
+                    <img src="images/7.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    Decisions For Building Flexible Components DevTools Browser
+                   keep your home safe is to install a security system
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
@@ -932,19 +929,19 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
               <div
                 className="kf-blog-grid-item element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog3.jpg" alt="image" />
+                    <img src="images/6.jpeg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    SWR React Hooks With Next Increm Ental Static Regeneration
+                    The best way to keep your home safe is to install a security system
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
@@ -959,21 +956,21 @@ const Index = () => {
             </div>
           </div>
           <div className="align-center">
-            <Link
-              href="blog-grid"
+            <a
+              href="#"
               className="kf-btn element-anim-1 scroll-animate"
               data-animate="active"
             >
               <span>view all</span>
               <i className="fas fa-chevron-right" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
       {/* Section Insta Carousel */}
-      <InstaCarousel />
+      {/* <InstaCarousel /> */}
       {/* Section Brands */}
-      <div className="section kf-brands">
+      {/* <div className="section kf-brands">
         <div className="container">
           <div className="kf-brands-items row">
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
@@ -1038,7 +1035,8 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+       <TestimonialsCarousel />
     </Layouts>
   );
 };

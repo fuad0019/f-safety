@@ -9,7 +9,7 @@ const Team = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/team_inner_bg.jpg)" }}
+          style={{ backgroundImage: "url(images/6.jpeg)" }}
         />
         <div className="container">
           <h1
@@ -17,7 +17,7 @@ const Team = () => {
             data-splitting="chars"
             data-animate="active"
           >
-            Our Chefs
+            Your Front line journey starts here
           </h1>
         </div>
       </section>
@@ -30,13 +30,13 @@ const Team = () => {
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Experience Team Member
+              Join our team of professionals and start your career with us
             </div>
             <h3
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Meet Our Professional Chefs
+              New higher hourly pay rates!
             </h3>
           </div>
           <div className="kf-team-items row">
@@ -46,11 +46,11 @@ const Team = () => {
                 data-animate="active"
               >
                 <div className="desc">
-                  <h5 className="name">Anthony J. Bowman</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <h5 className="name">SIA Licensed Door Supervisor</h5>
+                  <div className="subname">£15.13 – £18.44</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team1.jpg" alt="image" />
+                  <img src="images/11.jpg" alt="image" />
                   <div className="info">
                     <div className="label">bowmankf@gmail.com</div>
                     <div className="label">+012 (345) 678 99</div>
@@ -78,11 +78,11 @@ const Team = () => {
                 data-animate="active"
               >
                 <div className="desc">
-                  <h5 className="name">Kenny V. Gonzalez</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <h5 className="name">Event Safety Steward</h5>
+                  <div className="subname">£14.12– £15.52</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team2.jpg" alt="image" />
+                  <img src="images/12.jpg" alt="image" />
                   <div className="info">
                     <div className="label">gonzalezkf@gmail.com</div>
                     <div className="label">+012 (345) 678 99</div>
@@ -110,11 +110,11 @@ const Team = () => {
                 data-animate="active"
               >
                 <div className="desc">
-                  <h5 className="name">Joseph M. Lawrence</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <h5 className="name">Event Security Guards</h5>
+                  <div className="subname">$15 - $20 an hour</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team3.jpg" alt="image" />
+                  <img src="images/13.jpg" alt="image" />
                   <div className="info">
                     <div className="label">lawrencekf@gmail.com</div>
                     <div className="label">+012 (345) 678 99</div>
@@ -142,11 +142,12 @@ const Team = () => {
                 data-animate="active"
               >
                 <div className="desc">
-                  <h5 className="name">Charles K. Smith</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <h5 className="name">Security Event Staff
+                  </h5>
+                  <div className="subname"> $15 - $20 an hour</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team4.jpg" alt="image" />
+                  <img src="images/security.png" alt="image" />
                   <div className="info">
                     <div className="label">smithkf@gmail.com</div>
                     <div className="label">+012 (345) 678 99</div>
@@ -168,7 +169,7 @@ const Team = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            {/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
@@ -199,8 +200,8 @@ const Team = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            </div> */}
+            {/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
@@ -231,8 +232,8 @@ const Team = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            </div> */}
+            {/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
@@ -263,8 +264,8 @@ const Team = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            </div> */}
+            {/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
@@ -295,14 +296,14 @@ const Team = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
+        style={{ backgroundImage: "url(images/6.jpeg)" }}
       >
         <div className="container">
           <div className="row">
@@ -312,23 +313,23 @@ const Team = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Need a Table On Coffee House
+                 
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Booking Table For Your &amp; Family Members
+                 Need a job? Join our team of professionals and start your career with us
                 </h3>
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
               <Link
-                href="reservation"
+                href="contacts"
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>booking table</span>
+                <span>Get touch </span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>
@@ -338,7 +339,7 @@ const Team = () => {
       {/* Section Testimonials Carousel */}
       <TestimonialsCarousel />
       {/* Section Brands */}
-      <div className="section kf-brands">
+      {/* <div className="section kf-brands">
         <div className="container">
           <div className="kf-brands-items row">
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
@@ -403,7 +404,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layouts>
   );
 };

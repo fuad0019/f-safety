@@ -10,7 +10,7 @@ const About = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/history_inner_bg.jpg)" }}
+          style={{ backgroundImage: "url(images/8.jpeg)" }}
         />
         <div className="container">
           <h1
@@ -32,13 +32,13 @@ const About = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  AboutKAFE
+                
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  New London Coffee Founded For Extraordinary Test
+                Om virksomheden
                 </h3>
               </div>
               <div
@@ -46,12 +46,10 @@ const About = () => {
                 data-animate="active"
               >
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptate
-                  accusantium doloremque laudantium, totam rem aperiam eaque
-                  ipsa quae abillo inventore veritatis
+                Frontline Safety er din betroede partner inden for eventsikkerhed. Vores team består af højt kvalificerede medarbejdere, der alle har gennemgået kurser i crowd safety, kommunikation, konflikthåndtering og førstehjælp. Vi leverer professionelle sikkerhedsløsninger til alle typer events – fra intime arrangementer til store koncerter og festivaler. Med kapacitet til at stille op til 300 sikkerhedsmedarbejdere sikrer vi, at alle aspekter af dit event håndteres med præcision og tryghed. Vi rekrutterer primært via anbefalinger fra vores erfarne personale, hvilket sikrer et pålideligt og kompetent team. Vi har med stor succes leveret sikkerhedsløsninger til en række prominente spillesteder, herunder Forum, K.B. Hallen, Falkonér Salen, Vega, Pumpehuset og DR Koncertsal. Vores engagement i sikkerhed og service gør os til en solid og professionel samarbejdspartner for ethvert event.
                 </p>
               </div>
-              <div className="kf-choose-list">
+              {/* <div className="kf-choose-list">
                 <ul>
                   <li
                     className="element-anim-1 scroll-animate"
@@ -84,13 +82,13 @@ const About = () => {
                     </div>
                   </li>
                 </ul>
-              </div>
+              </div> */}
               <Link
-                href="menu-coffee"
+                href="services"
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>our menu</span>
+                <span>our services</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>
@@ -99,7 +97,7 @@ const About = () => {
                 className="kf-choose-image element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <img src="images/about_img2.jpg" alt="image" />
+                <img src="images/5.jpg" alt="image" />
               </div>
             </div>
           </div>
@@ -182,7 +180,7 @@ const About = () => {
         </div>
       </section>
       {/* Section Services-2 */}
-      <section className="section kf-services">
+      {/* <section className="section kf-services">
         <div className="container">
           <div className="kf-services-items-2 row">
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
@@ -243,9 +241,9 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Team */}
-      <section className="section kf-team section-bg">
+      {/* <section className="section kf-team section-bg">
         <div className="container">
           <div className="kf-titles align-center">
             <div
@@ -392,9 +390,9 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Brands */}
-      <section className="section kf-brands">
+      {/* <section className="section kf-brands">
         <div className="container">
           <div className="kf-brands-items row">
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
@@ -459,13 +457,13 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Testimonials Carousel */}
       <TestimonialsCarousel />
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
+        style={{ backgroundImage: "url(images/8.jpeg)" }}
       >
         <div className="container">
           <div className="row">
@@ -475,23 +473,23 @@ const About = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Need a Table On Coffee House
+                
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Booking Table For Your &amp; Family Members
+               Need a security solution for your event?
                 </h3>
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
               <Link
-                href="reservation"
+                href="contacts"
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>booking table</span>
+                <span>get touch</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>
