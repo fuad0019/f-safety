@@ -116,7 +116,7 @@ const Index = () => {
               >
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
-                    <Link href="menu-restaurant">
+                    <Link href="services">
                       <img src="images/7.jpg" alt="image" />
                     </Link>
                   </div>
@@ -126,7 +126,7 @@ const Index = () => {
                 </div>
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
-                    <Link href="menu-restaurant">
+                    <Link href="services">
                       <img src="images/crowd.jpeg" alt="image" />
                     </Link>
                   </div>
@@ -137,7 +137,7 @@ const Index = () => {
                 </div>
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
-                    <Link href="menu-restaurant">
+                    <Link href="services">
                       <img src="images/6.jpeg" alt="image" />
                     </Link>
                   </div>
@@ -147,7 +147,7 @@ const Index = () => {
                 </div>
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
-                    <Link href="menu-restaurant">
+                    <Link href="services">
                       <img src="images/8.jpeg" alt="image" />
                     </Link>
                   </div>
