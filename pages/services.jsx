@@ -240,7 +240,8 @@ const Services = () => {
             </h3>
           </div>
           <div className="kf-services-items-2 row">
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+          <Link href="/menu-restaurant" className="col-xs-12 col-sm-12 col-md-6 col-lg-3" >
+            
               <div
                 className="kf-services-item-2 element-anim-1 scroll-animate"
                 data-animate="active"
@@ -253,8 +254,9 @@ const Services = () => {
                   <div className="subname">Hos Frontline Safety er din tryghed vores prioritet. Vi tilbyder professionel eventsikkerhed til alle typer arrangementer – store som små.</div>
                 </div>
               </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            
+            </Link>
+            <Link href="service2" className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
               <div
                 className="kf-services-item-2 element-anim-1 scroll-animate"
                 data-animate="active"
@@ -267,8 +269,8 @@ const Services = () => {
                   <div className="subname">Effektiv crowd management er nøglen til et vellykket og sikkert event. Hos Frontline Safety arbejder vi proaktivt for at styre menneskemængder og undgå farlige situationer, før de opstår.</div>
                 </div>
               </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            </Link>
+            <Link href="service3" className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
               <div
                 className="kf-services-item-2 element-anim-1 scroll-animate"
                 data-animate="active"
@@ -281,8 +283,8 @@ const Services = () => {
                   <div className="subname">Diskretion, professionalisme og situationsfornemmelse er nøgleordene i vores VIP-beskyttelse. Frontline Safety tilbyder skræddersyede sikkerhedsløsninger</div>
                 </div>
               </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            </Link>
+            <Link href="service4" className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
               <div
                 className="kf-services-item-2 element-anim-1 scroll-animate"
                 data-animate="active"
@@ -295,7 +297,7 @@ const Services = () => {
                   <div className="subname">En sikker og effektiv indgang er første skridt mod et vellykket event. Hos Frontline Safety tilbyder vi professionel adgangskontrol og moderne billetscanning, der minimerer køer og maksimerer sikkerheden.</div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>

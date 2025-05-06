@@ -98,9 +98,9 @@ const Header = () => {
                     News
                   </a>
                 </li>
-                <li>
+                {/* <li>
                       <Link href="history">Training</Link>
-                    </li>
+                    </li> */}
                 <li>
                   <Link href="contacts">Contacts</Link>
                 </li>

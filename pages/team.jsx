@@ -20,10 +20,11 @@ const Team = () => {
             Your Front line journey starts here
           </h1>
         </div>
+        
       </section>
 
       {/* Section Team */}
-      <section className="section kf-team section-bg">
+      {/* <section className="section kf-team section-bg">
         <div className="container">
           <div className="kf-titles align-center">
             <div
@@ -169,141 +170,15 @@ const Team = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-team-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="desc">
-                  <h5 className="name">Richard A. White</h5>
-                  <div className="subname">Senior Chefs</div>
-                </div>
-                <div className="image kf-image-hover">
-                  <img src="images/team5.jpg" alt="image" />
-                  <div className="info">
-                    <div className="label">whitekf@gmail.com</div>
-                    <div className="label">+012 (345) 678 99</div>
-                  </div>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-youtube" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-            {/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-team-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="desc">
-                  <h5 className="name">David M. Seward</h5>
-                  <div className="subname">Senior Chefs</div>
-                </div>
-                <div className="image kf-image-hover">
-                  <img src="images/team6.jpg" alt="image" />
-                  <div className="info">
-                    <div className="label">sewardkf@gmail.com</div>
-                    <div className="label">+012 (345) 678 99</div>
-                  </div>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-youtube" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-            {/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-team-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="desc">
-                  <h5 className="name">Julio N. Williams</h5>
-                  <div className="subname">Senior Chefs</div>
-                </div>
-                <div className="image kf-image-hover">
-                  <img src="images/team7.jpg" alt="image" />
-                  <div className="info">
-                    <div className="label">williamskf@gmail.com</div>
-                    <div className="label">+012 (345) 678 99</div>
-                  </div>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-youtube" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-            {/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-team-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="desc">
-                  <h5 className="name">Christopher K. Dixon</h5>
-                  <div className="subname">Senior Chefs</div>
-                </div>
-                <div className="image kf-image-hover">
-                  <img src="images/team8.jpg" alt="image" />
-                  <div className="info">
-                    <div className="label">dixonkf@gmail.com</div>
-                    <div className="label">+012 (345) 678 99</div>
-                  </div>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-youtube" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div> */}
+           
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section CTA */}
+      <TestimonialsCarousel />
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/6.jpeg)" }}
+        style={{ backgroundImage: "url(images/8.jpeg)" }}
       >
         <div className="container">
           <div className="row">
@@ -337,7 +212,7 @@ const Team = () => {
         </div>
       </section>
       {/* Section Testimonials Carousel */}
-      <TestimonialsCarousel />
+    
       {/* Section Brands */}
       {/* <div className="section kf-brands">
         <div className="container">
