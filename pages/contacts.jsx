@@ -39,13 +39,10 @@ const Contacts = () => {
                   <h5 className="name">Main Location</h5>
                   <ul>
                     <li>
-                      55 Main Street, 2nd Block, <br />
-                      3rd Floor, New York
+                    Vesterbrogade 69, 3. th., DK <br />
+                    1620 København V
                     </li>
-                    <li>
-                      394 Main Street, 2nd Block, <br />
-                      3rd Floor, USA
-                    </li>
+                   
                   </ul>
                 </div>
               </div>
@@ -63,13 +60,10 @@ const Contacts = () => {
                   <h5 className="name">Email Address</h5>
                   <ul>
                     <li>
-                      supportKAFE@gmail.com <br />
-                      www.KAFEinfo.net
+                    info@manosecurity.dk<br />
+                   
                     </li>
-                    <li>
-                      supportKAFE@gmail.com <br />
-                      www.KAFEinfo.net
-                    </li>
+                   
                   </ul>
                 </div>
               </div>
@@ -87,13 +81,10 @@ const Contacts = () => {
                   <h5 className="name">Phone Number</h5>
                   <ul>
                     <li>
-                      +012 (345) 678 99 <br />
-                      123456780
+                    Tlf: + 45 70 23 18 24 <br />
+                     
                     </li>
-                    <li>
-                      +012 (345) 678 99 <br />
-                      123456780
-                    </li>
+                    
                   </ul>
                 </div>
               </div>

@@ -68,7 +68,7 @@ const Header = () => {
             {/* logo */}
             <div className="kf-logo">
               <Link href="/">
-                <img src="images/l1.png" alt="image" />
+                <img src="images/l5.png" alt="image" />
               </Link>
             </div>
           </div>
@@ -78,15 +78,15 @@ const Header = () => {
               <ul>
                 <li>
                   <Link href="/">
-                    Home
+                  FORSIDE
                   </Link>
                 </li>
                 <li>
-                      <Link href="services">Our Service</Link>
+                      <Link href="services">VI LEVERER</Link>
                     </li>
                 
                 <li>
-                  <Link href="about">About Us</Link>
+                  <Link href="about">OM</Link>
                 </li>
             
                 <li>
@@ -95,14 +95,14 @@ const Header = () => {
                 </li>
                 <li>
                   <a href="blog-grid">
-                    News
+                  NYHEDER
                   </a>
                 </li>
                 {/* <li>
                       <Link href="history">Training</Link>
                     </li> */}
                 <li>
-                  <Link href="contacts">Contacts</Link>
+                  <Link href="contacts">KONTAKT</Link>
                 </li>
                 
               </ul>
@@ -129,29 +129,29 @@ const Header = () => {
         <div className="kf-main-menu">
           <ul>
             <li className="has-children">
-              <Link href="/">Home</Link>
+              <Link href="/">FORSIDE</Link>
             
            
             </li>
             <li>
-                  <Link href="services"> Our Service</Link>
+                  <Link href="services">VI LEVERER</Link>
                 </li>
 
             <li>
-              <Link href="about">About Us</Link>
+              <Link href="about">OM</Link>
             </li>
-            <li>
+            {/* <li>
                   <Link href="history">Training</Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href="team">Jobs</Link>
                 </li>
            
             <li className="has-children">
-              <a href="blog-grid">News</a>
+              <a href="blog-grid">NYHEDER</a>
             </li>
             <li>
-              <Link href="contacts">Contacts</Link>
+              <Link href="contacts">KONTAKT</Link>
             </li>
           </ul>
         </div>

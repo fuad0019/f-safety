@@ -17,7 +17,7 @@ const Index = () => {
           className="swiper-container"
           onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
           autoplay={{
-            delay: 3000,
+            delay: 6000, // Changed from 3000 to 6000
             disableOnInteraction: false,
           }}
           pagination={{
@@ -42,7 +42,7 @@ const Index = () => {
                 style={{ backgroundImage: "url(images/6.jpeg)" }}
               />
               <div className="container">
-                <div className={`description align-left element-anim-1 transition-opacity duration-1000 ease-in-out ${activeIndex === 0 ? 'opacity-100' : 'opacity-0'}`}>
+                <div className={`description align-left element-anim-1 transition-opacity duration-800 ease-in-out ${activeIndex === 0 ? 'opacity-100' : 'opacity-0'}`}>
                   <h2 className="name text-anim-1" data-splitting="chars">
                     Professionel sikkerhed  <br />
                     til ethvert arrangement
@@ -69,7 +69,7 @@ const Index = () => {
                 style={{ backgroundImage: "url(images/hero.jpeg)" }}
               />
               <div className="container">
-                <div className={`description align-left element-anim-1 transition-opacity duration-1000 ease-in-out ${activeIndex === 1 ? 'opacity-100' : 'opacity-0'}`}>
+                <div className={`description align-left element-anim-1 transition-opacity duration-800 ease-in-out ${activeIndex === 1 ? 'opacity-100' : 'opacity-0'}`}>
                   <h2 className="name text-anim-1" data-splitting="chars">
                     Din sikkerhed. <br />
                     Vores ansvar
@@ -96,7 +96,7 @@ const Index = () => {
                 style={{ backgroundImage: "url(images/8.jpeg)" }}
               />
               <div className="container">
-                <div className={`description align-left element-anim-1 transition-opacity duration-1000 ease-in-out ${activeIndex === 2 ? 'opacity-100' : 'opacity-0'}`}>
+                <div className={`description align-left element-anim-1 transition-opacity duration-800 ease-in-out ${activeIndex === 2 ? 'opacity-100' : 'opacity-0'}`}>
                   <h2 className="name text-anim-1" data-splitting="chars">
                     Når det handler om sikkerhed, <br />
                     går vi forrest
@@ -128,10 +128,10 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="kf-category-items element-anim-1 scroll-animate" data-animate="active">
                 {[
-                  { src: "images/7.jpg", label: "Eventsikkerhed" },
-                  { src: "images/crowd.jpeg", label: "Crowd Management" },
-                  { src: "images/6.jpeg", label: "VIP Beskyttelse" },
-                  { src: "images/8.jpeg", label: "Adgangskontrol & Billet Scanning" },
+                  { src: "images/7.jpg", label: "Protection of stage hands & production crew." },
+                  { src: "images/crowd.jpeg", label: "General Crew." },
+                  { src: "images/6.jpeg", label: "beyond events for supervision - guiding." },
+                  { src: "images/8.jpeg", label: " Crowd Planning & Management." },
                 ].map((item, i) => (
                   <div className="kf-category-item" key={i}>
                     <div className="image kf-image-hover">
@@ -148,13 +148,15 @@ const Index = () => {
               <div className="kf-titles">
                 <div className="kf-subtitle element-anim-1 scroll-animate" data-animate="active">Vores Tjenester</div>
                 <h3 className="kf-title element-anim-1 scroll-animate" data-animate="active">
-                  vores kerneydelse, <br />
-                  men ikke begrænset
+                  Er du arrangør og skal afholde et stort event, en koncert eller festival med mange gæster?  <br />
+                  Så er du landet det rette sted.
                 </h3>
               </div>
               <div className="kf-text element-anim-1 scroll-animate" data-animate="active">
                 <p>
-                  Velkommen til Frontline Safety, Danmarks mest betroede crowd management-, spillesteds- og eventsikkerhedsspecialist, med et internationalt ry for fremragende kvalitet.
+                  Frontline Safety leverer safety-personalet til dit næste store arrangement.
+                  Vi tager os af gæsternes sikkerhed, så du med ro i maven kan afvikle eventet med alle sikkerhedsforanstaltninger i orden.
+                  Vores tilgang er enkel: Vi skal levere den helt rette blanding af service og sikkerhed. HVER GANG!
                 </p>
               </div>
               <Link href="services" className="kf-btn element-anim-1 scroll-animate" data-animate="active">
@@ -188,41 +190,106 @@ const Index = () => {
       </section>
 
       {/* Section Latest Blog */}
-      <section className="section kf-latest-blog section-bg">
+         <section className="section kf-latest-blog">
         <div className="container">
           <div className="kf-titles align-center">
-            <div className="kf-subtitle element-anim-1 scroll-animate" data-animate="active">
+            <div
+              className="kf-subtitle element-anim-1 scroll-animate"
+              data-animate="active"
+            >
               Get Every Single Update
             </div>
-            <h3 className="kf-title element-anim-1 scroll-animate" data-animate="active">
-              Read Some Latest Blog &amp; News
-            </h3>
+         
           </div>
           <div className="kf-blog-grid-items row">
-            {[
-              { img: "images/2.jpg", title: "The best way to keep your home safe is to install a security system", date: "25 Sep 2021", comments: 7 },
-              { img: "images/7.jpg", title: "Keeping the neighborhood safe with community-based surveillance", date: "10 Oct 2021", comments: 5 },
-              { img: "images/8.jpeg", title: "Keeping the neighborhood safe with community-based surveillance", date: "10 Oct 2021", comments: 5 },
-            ].map((blog, i) => (
-              <div className="col-md-6 col-lg-4" key={i}>
-                <div className="kf-blog-grid-item element-anim-1 scroll-animate" data-animate="active">
-                  <div className="image kf-image-hover">
-                    <Link href="blog-single">
-                      <img src={blog.img} alt="image" />
-                    </Link>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+              <div
+                className="kf-blog-grid-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <Link href="blog_1">
+                    <img src="images/4.jpg" alt="image" />
+                  </Link>
+                </div>
+                <div className="desc">
+                  <h5 className="name">
+                  Vigtigheden af Professionel Eventsikkerhed i Danmark
+                  </h5>
+                  <div className="kf-date">
+                    <i className="far fa-calendar-alt" />
+                    25 Sep 2024
                   </div>
-                  <div className="desc">
-                    <h5 className="name">{blog.title}</h5>
-                    <div className="kf-date">
-                      <i className="far fa-calendar-alt" /> {blog.date}
-                    </div>
-                    <div className="kf-comm">
-                      <i className="far fa-comments" /> Comments ({blog.comments})
-                    </div>
+                  <div className="kf-comm">
+                    <i className="far fa-comments" />
+                    Comments (7)
                   </div>
                 </div>
               </div>
-            ))}
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+              <div
+                className="kf-blog-grid-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <Link href="blog_2">
+                    <img src="images/8.jpeg" alt="image" />
+                  </Link>
+                </div>
+                <div className="desc">
+                  <h5 className="name">
+               Hvad Du Kan Forvente af Frontline Safety til Dit Næste Event
+                  </h5>
+                  <div className="kf-date">
+                    <i className="far fa-calendar-alt" />
+                    25 Sep 2021
+                  </div>
+                  <div className="kf-comm">
+                    <i className="far fa-comments" />
+                    Comments (7)
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+              <div
+                className="kf-blog-grid-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image kf-image-hover">
+                  <Link href="blog_3">
+                    <img src="images/5.jpg" alt="image" />
+                  </Link>
+                </div>
+                <div className="desc">
+                  <h5 className="name">
+                 Sådan Uddanner Vi Vores Vagtpersonale til at Håndtere Enhver Situation
+                  </h5>
+                  <div className="kf-date">
+                    <i className="far fa-calendar-alt" />
+                    25 Sep 2021
+                  </div>
+                  <div className="kf-comm">
+                    <i className="far fa-comments" />
+                    Comments (7)
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          
+           
+          </div>
+          <div className="align-center">
+            <a
+              href="#"
+              className="kf-btn element-anim-1 scroll-animate"
+              data-animate="active"
+            >
+              <span>load more</span>
+              <i className="fas fa-chevron-right" />
+            </a>
           </div>
         </div>
       </section>

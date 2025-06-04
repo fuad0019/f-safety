@@ -7,7 +7,7 @@ const Services4 = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/6.jpeg)" }}
+          style={{ backgroundImage: "url(images/5.jpg)" }}
         />
         <div className="container">
           <h1
@@ -15,7 +15,7 @@ const Services4 = () => {
             data-splitting="chars"
             data-animate="active"
           >
-            our Core Services
+           vores kerneydelser
           </h1>
         </div>
       </section>
@@ -28,7 +28,7 @@ const Services4 = () => {
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-            Adgangskontrol & Billet Scanning
+       Beskyttelse af Stagehands & Produktionspersonale
             </h3>
           </div>
           <div className="kf-menu-items-2 w-full">
@@ -38,26 +38,23 @@ const Services4 = () => {
             >
               <div className="w-full">
                 <h1 className="text-center mb-4">
-                  Frontline Safety – Professionel Eventsikkerhed i Danmark
+              
                 </h1>
                 <div className="text-justify leading-relaxed">
-                Adgangskontrol og billet scanning er essentielle elementer i at sikre trygheden og effektiviteten ved større arrangementer. Frontline Safety tilbyder avancerede løsninger til både adgangskontrol og billetverifikation, der muliggør hurtig og præcis scanning af billetter ved indgangen. Vores systemer sikrer, at kun autoriserede personer får adgang, hvilket forhindrer uautoriserede indtrængen og reducerer risikoen for sikkerhedsbrud. Ved at bruge moderne teknologi, såsom mobile apps og digitale scannere, kan vi tilbyde en smidig og effektiv løsning, der minimerer ventetider og optimerer flowet af besøgende. Frontline Safety sikrer dermed både høj sikkerhed og en god oplevelse for deltagerne.
+                Hos Frontline Safety prioriterer vi sikkerheden for stagehands og produktionspersonale under alle faser af et arrangement – fra opbygning til nedtagning. Vi forstår de unikke risici, der kan opstå i hektiske produktionsmiljøer, og tilbyder målrettede sikkerhedsløsninger, der beskytter både mennesker og materiel.
+                  <br />
+                  Vores ydelser omfatter:
                   <ul className="list-disc list-inside my-4">
-                    <li>Koncerter og festivaler</li>
-                    <li>Firmaarrangementer</li>
-                    <li>Sportsbegivenheder</li>
-                    <li>Private fester</li>
-                    <li>Offentlige forsamlinger</li>
+                    <li>Tilstedeværelse af sikkerhedspersonale under opbygning og nedtagning</li>
+                    <li>Adgangskontrol og zoneopdeling for at sikre arbejdsro og tryghed</li>
+                    <li>Konflikthåndtering og forebyggelse af uautoriseret adgang</li>
+                    <li>Førstehjælpsberedskab og nødprocedurer</li>
+                    <li>Samarbejde med produktionsteamet for at identificere og minimere risici</li>
                   </ul>
-                  Vi har fokus på crowd management, adgangskontrol,
-                  risikovurdering og beredskabsplanlægning, og vi arbejder tæt
-                  sammen med arrangører og myndigheder for at skabe et sikkert
-                  og trygt miljø.
+                  Vi arbejder tæt sammen med crewledere, teknikere og eventansvarlige for at sikre, at alle arbejdsforhold lever op til gældende sikkerhedsstandarder – og at alle kan fokusere på deres opgaver i et trygt miljø.
                   <br />
                   <br />
-                  Uanset om du planlægger en lille privat fest eller et stort
-                  offentligt event, er Frontline Safety din pålidelige partner
-                  inden for professionel eventsikkerhed i Danmark.
+                  Frontline Safety er din pålidelige partner, når det handler om professionel beskyttelse af de mennesker, der får produktionen til at køre.
                 </div>
               </div>
             </div>

@@ -1,13 +1,13 @@
 import Layouts from "@/src/layouts/Layouts";
 
-const Services3 = () => {
+const blog5= () => {
   return (
     <Layouts>
       {/* Section: Header */}
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/4.jpg)" }}
+          style={{ backgroundImage: "url(images/12.jpg)" }}
         />
         <div className="container">
           <h1
@@ -15,8 +15,7 @@ const Services3 = () => {
             data-splitting="chars"
             data-animate="active"
           >
-          
-vores kerneydelser
+      NYHEDER
           </h1>
         </div>
       </section>
@@ -29,7 +28,7 @@ vores kerneydelser
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-              General Crew
+         Vigtigheden af Professionel Eventsikkerhed i Danmark
             </h3>
           </div>
           <div className="kf-menu-items-2 w-full">
@@ -39,25 +38,20 @@ vores kerneydelser
             >
               <div className="w-full">
                 <h1 className="text-center mb-4">
-            
+               
                 </h1>
                 <div className="text-justify leading-relaxed">
-                Hos Frontline Safety tilbyder vi pålideligt og alsidigt General Crew-personale til støtte ved opsætning, afvikling og nedtagning af arrangementer og projekter. Vores mandskab er vant til at arbejde effektivt, fleksibelt og professionelt i skiftende miljøer og under tidspres.
+              Når man planlægger en begivenhed – uanset om det er en musikfestival, en firmafest, en konference eller en sportsbegivenhed – er sikkerheden for deltagerne noget af det allervigtigste. I Danmark er der stigende fokus på at sikre trygge rammer for både gæster og personale. Hos Frontline Safety er det vores kerneopgave at levere netop dette: tryghed, professionalisme og ro i sindet for alle involverede.
+
+Hvorfor er professionel sikkerhed nødvendig?
+Mange tænker ikke over det, men sikkerhed handler ikke kun om at håndtere konflikter. Det handler i lige så høj grad om at forebygge dem. Professionelle sikkerhedsvagter er uddannet til at spotte risici før de udvikler sig, håndtere menneskemængder effektivt, og gribe hurtigt ind i nødsituationer – alt imens de opretholder en rolig og venlig tilstedeværelse.
+
+Hos Frontline Safety arbejder vi proaktivt med risikovurdering og planlægning, så intet overlades til tilfældighederne. Vores tilgang er baseret på erfaring, træning og samarbejde med arrangører, myndigheder og personale.
                   <br />
-                  Vores crew kan bistå med:
+                  <br />
+                
 
 
-                  <ul className="list-disc list-inside my-4">
-                    <li>Opbygning og nedtagning af scener, hegn og udstyr</li>
-                    <li>Logistik og materialehåndtering</li>
-                    <li>Backstage-support og teknikassistance</li>
-                    <li>Transport og fordeling af udstyr</li>
-                    <li>Generel bemanding og praktisk hjælp under events</li>
-                  </ul>
-                  Vi forstår vigtigheden af samarbejde, punktlighed og ansvarlighed, og vi sikrer, at vores medarbejdere altid møder forberedte og med den rette indstilling til opgaven.
-                  <br />
-                  <br />
-                  Med Frontline Safety som partner får du ikke blot hænder, men engagerede folk, der bidrager til et professionelt og gnidningsfrit forløb – før, under og efter eventet.
                 </div>
               </div>
             </div>
@@ -68,4 +62,4 @@ vores kerneydelser
   );
 };
 
-export default Services3;
+export default blog5;

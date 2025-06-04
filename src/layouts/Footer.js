@@ -17,18 +17,41 @@ const Footer = () => {
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
             {/* hours */}
             <div
-              className="kf-f-hours element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              <h5>Want to work for us?</h5>
-              <ul>
-                <li>
-              
-                  <em>(for help with the application process, our Recruitment team is on Tlf: + 45 70 23 18 24)</em>
-                </li>
-             
-              </ul>
-            </div>
+  className="kf-f-hours element-anim-1 scroll-animate"
+  data-animate="active"
+>
+  <h5>Follow us</h5>
+  <ul style={{ listStyle: "none", padding: 0 }}>
+    <li style={{ marginBottom: "10px" }}>
+      <a
+        href="https://www.linkedin.com/company/frontline-safety"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ display: "flex", alignItems: "center", fontSize: "18px", textDecoration: "none", color: "#0e76a8" }}
+      >
+        <i className="lab la-linkedin" style={{ fontSize: "24px", marginRight: "10px" }} />
+        LinkedIn
+      </a>
+    </li>
+    <li style={{ marginBottom: "10px" }}>
+      <a
+        href="https://www.instagram.com/frontline_safety"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ display: "flex", alignItems: "center", fontSize: "18px", textDecoration: "none", color: "#C13584" }}
+      >
+        <i className="lab la-instagram" style={{ fontSize: "24px", marginRight: "10px" }} />
+        Instagram
+      </a>
+    </li>
+    <li>
+      {/* <em style={{ fontSize: "16px", color: "#555" }}>
+        (For help with the application process, our Recruitment team is on Tlf: + 45 70 23 18 24)
+      </em> */}
+    </li>
+  </ul>
+</div>
+
           </div>
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
             {/* contact */}
@@ -49,7 +72,7 @@ const Footer = () => {
                   info@manosecurity.dk
                 </li>
                 <li>
-                  <i className="las la-phone" />
+                
                   <em>Phone Number :</em>
                   Tlf: + 45 70 23 18 24
                 </li>

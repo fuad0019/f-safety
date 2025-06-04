@@ -7,7 +7,7 @@ const Services2 = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/6.jpeg)" }}
+          style={{ backgroundImage: "url(images/7.jpg)" }}
         />
         <div className="container">
           <h1
@@ -15,7 +15,8 @@ const Services2 = () => {
             data-splitting="chars"
             data-animate="active"
           >
-            our Core Services
+           
+vores kerneydelser
           </h1>
         </div>
       </section>
@@ -28,7 +29,7 @@ const Services2 = () => {
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-           Crowd Management
+          Crowd Planning & Management.
             </h3>
           </div>
           <div className="kf-menu-items-2 w-full">
@@ -38,33 +39,26 @@ const Services2 = () => {
             >
               <div className="w-full">
                 <h1 className="text-center mb-4">
-                  Frontline Safety – Professionel Eventsikkerhed i Danmark
+                
                 </h1>
                 <div className="text-justify leading-relaxed">
-                  Hos Frontline Safety specialiserer vi os i at levere
-                  pålidelig og professionel eventsikkerhed over hele Danmark.
-                  Vores mission er at sikre tryghed, orden og en gnidningsfri
-                  afvikling af ethvert arrangement – uanset størrelse.
+                Hos Frontline Safety tilbyder vi specialiseret rådgivning og håndtering inden for Crowd Planning & Management – en afgørende del af sikkerheden ved alle typer arrangementer, hvor mange mennesker samles.
+
+Vi arbejder strategisk med at analysere publikumsflow, ind- og udgange, flugtveje, barriereopsætning og adfærdsforudsigelse for at sikre, at både gæster og personale færdes trygt og effektivt. Vores team har stor erfaring med at udvikle tilpassede crowd management-planer til både små og store events, herunder koncerter, sportsbegivenheder, festivaler og offentlige forsamlinger.
                   <br />
                   <br />
-                  Med et team af uddannede og certificerede vagter tilbyder vi
-                  skræddersyede løsninger til:
+                  Vi tilbyder:
                   <ul className="list-disc list-inside my-4">
-                    <li>Koncerter og festivaler</li>
-                    <li>Firmaarrangementer</li>
-                    <li>Sportsbegivenheder</li>
-                    <li>Private fester</li>
-                    <li>Offentlige forsamlinger</li>
+                    <li>Risikovurdering og kapacitetsanalyse</li>
+                    <li>Udvikling af crowd management-planer</li>
+                    <li>Praktisk koordinering og instruktion af personale</li>
+                    <li>Synlig og professionel tilstedeværelse under afvikling</li>
+                    <li>Evaluering og opfølgning efter event</li>
                   </ul>
-                  Vi har fokus på crowd management, adgangskontrol,
-                  risikovurdering og beredskabsplanlægning, og vi arbejder tæt
-                  sammen med arrangører og myndigheder for at skabe et sikkert
-                  og trygt miljø.
+                  Frontline Safety kombinerer viden om menneskelig adfærd med praktisk erfaring og stærk kommunikation. Resultatet er sikre, velfungerende arrangementer, hvor publikum føler sig velkomne og trygge – og hvor sikkerheden aldrig overlades til tilfældigheder.
                   <br />
                   <br />
-                  Uanset om du planlægger en lille privat fest eller et stort
-                  offentligt event, er Frontline Safety din pålidelige partner
-                  inden for professionel eventsikkerhed i Danmark.
+               
                 </div>
               </div>
             </div>

@@ -1,13 +1,13 @@
 import Layouts from "@/src/layouts/Layouts";
 
-const Services3 = () => {
+const blog2 = () => {
   return (
     <Layouts>
       {/* Section: Header */}
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/4.jpg)" }}
+          style={{ backgroundImage: "url(images/8.jpeg)" }}
         />
         <div className="container">
           <h1
@@ -15,8 +15,7 @@ const Services3 = () => {
             data-splitting="chars"
             data-animate="active"
           >
-          
-vores kerneydelser
+        NYHEDER
           </h1>
         </div>
       </section>
@@ -29,7 +28,7 @@ vores kerneydelser
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-              General Crew
+    Hvad Du Kan Forvente af Frontline Safety til Dit Næste Event
             </h3>
           </div>
           <div className="kf-menu-items-2 w-full">
@@ -39,25 +38,28 @@ vores kerneydelser
             >
               <div className="w-full">
                 <h1 className="text-center mb-4">
-            
+               
                 </h1>
                 <div className="text-justify leading-relaxed">
-                Hos Frontline Safety tilbyder vi pålideligt og alsidigt General Crew-personale til støtte ved opsætning, afvikling og nedtagning af arrangementer og projekter. Vores mandskab er vant til at arbejde effektivt, fleksibelt og professionelt i skiftende miljøer og under tidspres.
+Når du hyrer Frontline Safety til at sikre dit event, får du mere end bare sikkerhedsvagter. Du får en erfaren samarbejdspartner, der arbejder systematisk, professionelt og engageret for at skabe en tryg og velkoordineret oplevelse for alle deltagere. I dette indlæg giver vi dig et indblik i, hvordan vi arbejder – før, under og efter et event.
                   <br />
-                  Vores crew kan bistå med:
+                  <br />
+                Før Eventet: Grundig Forberedelse og Risikovurdering
+Sikkerhed begynder længe før dørene åbner. Hos Frontline Safety starter vi med en grundig risikovurdering i samarbejde med dig som arrangør. Vi stiller spørgsmål som:
+
+Hvilken type event er der tale om?
+
+Hvor mange gæster forventes der?
+
+Er der VIP’er til stede?
+
+Hvilket publikum henvender eventet sig til?
+
+Er der særlige risici på grund af alkohol, politik, musikgenre eller andet?
+
+Med udgangspunkt i disse oplysninger udarbejder vi en sikkerhedsplan, der tager højde for både synlige og skjulte risici. Planen dækker bl.a. bemanding, adgangskontrol, flugtveje, crowd management og nødberedskab.
 
 
-                  <ul className="list-disc list-inside my-4">
-                    <li>Opbygning og nedtagning af scener, hegn og udstyr</li>
-                    <li>Logistik og materialehåndtering</li>
-                    <li>Backstage-support og teknikassistance</li>
-                    <li>Transport og fordeling af udstyr</li>
-                    <li>Generel bemanding og praktisk hjælp under events</li>
-                  </ul>
-                  Vi forstår vigtigheden af samarbejde, punktlighed og ansvarlighed, og vi sikrer, at vores medarbejdere altid møder forberedte og med den rette indstilling til opgaven.
-                  <br />
-                  <br />
-                  Med Frontline Safety som partner får du ikke blot hænder, men engagerede folk, der bidrager til et professionelt og gnidningsfrit forløb – før, under og efter eventet.
                 </div>
               </div>
             </div>
@@ -68,4 +70,4 @@ vores kerneydelser
   );
 };
 
-export default Services3;
+export default blog2;

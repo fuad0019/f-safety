@@ -44,17 +44,17 @@ const BlogGrid = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <Link href="blog-single">
+                  <Link href="blog_1">
                     <img src="images/4.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                  Celebrating 10 Years of Frontline at copenhagen
+                  Vigtigheden af Professionel Eventsikkerhed i Danmark
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
-                    25 Sep 2023
+                    25 Sep 2024
                   </div>
                   <div className="kf-comm">
                     <i className="far fa-comments" />
@@ -69,14 +69,13 @@ const BlogGrid = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <Link href="blog-single">
+                  <Link href="blog_2">
                     <img src="images/8.jpeg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                  Derfor skal du vælge Mano Securitymilk provides all the macro nutrients in
-                    good amounts
+               Hvad Du Kan Forvente af Frontline Safety til Dit Næste Event
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
@@ -95,14 +94,13 @@ const BlogGrid = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <Link href="blog-single">
+                  <Link href="blog_3">
                     <img src="images/5.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    For most people, moderate coffee consumption can be
-                    incorporated
+                 Sådan Uddanner Vi Vores Vagtpersonale til at Håndtere Enhver Situation
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
@@ -121,7 +119,7 @@ const BlogGrid = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <Link href="blog-single">
+                  <Link href="blog_4">
                     <img src="images/6.jpeg" alt="image" />
                   </Link>
                 </div>
@@ -146,8 +144,8 @@ const BlogGrid = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <Link href="blog-single">
-                    <img src="images/7.jpg" alt="image" />
+                  <Link href="blog_5">
+                    <img src="images/12.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -171,8 +169,8 @@ const BlogGrid = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <Link href="blog-single">
-                    <img src="images/8.jpeg" alt="image" />
+                  <Link href="blog_6">
+                    <img src="images/11.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">

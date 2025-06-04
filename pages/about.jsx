@@ -18,7 +18,7 @@ const About = () => {
             data-splitting="chars"
             data-animate="active"
           >
-            About Us
+                Om
           </h1>
         </div>
       </section>
@@ -38,7 +38,7 @@ const About = () => {
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                Om virksomheden
+           
                 </h3>
               </div>
               <div
@@ -46,7 +46,18 @@ const About = () => {
                 data-animate="active"
               >
                 <p>
-                Frontline Safety er din betroede partner inden for eventsikkerhed. Vores team består af højt kvalificerede medarbejdere, der alle har gennemgået kurser i crowd safety, kommunikation, konflikthåndtering og førstehjælp. Vi leverer professionelle sikkerhedsløsninger til alle typer events – fra intime arrangementer til store koncerter og festivaler. Med kapacitet til at stille op til 300 sikkerhedsmedarbejdere sikrer vi, at alle aspekter af dit event håndteres med præcision og tryghed. Vi rekrutterer primært via anbefalinger fra vores erfarne personale, hvilket sikrer et pålideligt og kompetent team. Vi har med stor succes leveret sikkerhedsløsninger til en række prominente spillesteder, herunder Forum, K.B. Hallen, Falkonér Salen, Vega, Pumpehuset og DR Koncertsal. Vores engagement i sikkerhed og service gør os til en solid og professionel samarbejdspartner for ethvert event.
+                Frontline Safety er et sikkerhedsbureau, som er specialiseret i at levere safety-personale til alle typer arrangementer, om det er koncerter, events eller festivaler. 
+Vi har 20 års erfaring i branchen, som gør os til et sikkert og trygt valg, når du som arrangør skal afholde store eller små events, hvor personale og sikkerhed skal være på plads.
+Alene i år har vi afviklet koncerter i Forum, K.B. Hallen, Falkonér Salen, Vega, Pumpehuset og DR Koncertsal. 
+Vi har specialiseret os i at levere den rette blanding af service og sikkerhed, så afholdelsen af dit arrangement sker så gnidningsfrit som overhovedet muligt i samarbejde med dig, som arrangør. 
+
+Vores safety-personale
+Vores medarbejdere leverer service i topklasse, er smilende og kan med sikker hånd styre gæsterne igennem dit event, så det bliver en god oplevelse for alle.
+Alle medarbejdere har gennemgået kurser i crowd-safety, i kommunikation og konflikthåndtering samt førstehjælp. 
+Vi kan leverer op mod 300 medarbejdere til et event og kan op- og nedskalere præcis efter dit behov for bemanding. 
+Skriv eller ring til os, og vi tager en snak om, hvordan vi kan løse dine sikkerhedsopgaver ved dit næste arrangement. 
+Du er også altid velkommen til at kontakte os, hvis du har spørgsmål og brug for at afklare dit behov ved næste arrangement.
+
                 </p>
               </div>
               {/* <div className="kf-choose-list">
@@ -118,7 +129,7 @@ const About = () => {
                 <div className="num">256+</div>
                 <div className="desc">
                   <h5 className="name">Premium Clients</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+               
                 </div>
               </div>
             </div>
@@ -130,10 +141,10 @@ const About = () => {
                 <div className="icon">
                   <i className="las la-user-tie" />
                 </div>
-                <div className="num">36+</div>
+                <div className="num">42+</div>
                 <div className="desc">
-                  <h5 className="name">Professional Chefs</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+                  <h5 className="name">Client-focussed operations managers</h5>
+                
                 </div>
               </div>
             </div>
@@ -145,10 +156,10 @@ const About = () => {
                 <div className="icon">
                   <i className="las la-trophy" />
                 </div>
-                <div className="num">753+</div>
+                <div className="num">7+</div>
                 <div className="desc">
                   <h5 className="name">Winning Awards</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+               
                 </div>
               </div>
             </div>
@@ -163,7 +174,7 @@ const About = () => {
                 <div className="num">100+</div>
                 <div className="desc">
                   <h5 className="name">5 Star Reviews</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+                  
                 </div>
               </div>
             </div>
@@ -171,14 +182,14 @@ const About = () => {
         </div>
       </section>
       {/* Section Video */}
-      <section className="section kf-video">
+      {/* <section className="section kf-video">
         <div className="container">
           <VideoPlayer
             videoBg={"images/video_bg.jpg"}
             extraClass={"kf-image-hover"}
           />
         </div>
-      </section>
+      </section> */}
       {/* Section Services-2 */}
       {/* <section className="section kf-services">
         <div className="container">
