@@ -28,7 +28,7 @@ const MenuRestaurant = () => {
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-              beyond events for supervision - guiding.
+             Event Sikkerhed
             </h3>
           </div>
           <div className="kf-menu-items-2 w-full">
@@ -41,13 +41,7 @@ const MenuRestaurant = () => {
                   Frontline Safety – Professionel Eventsikkerhed i Danmark
                 </h1>
                 <div className="text-justify leading-relaxed">
-                Frontline Safety er en professionel sikkerhedsvirksomhed med base i Danmark, der tilbyder omfattende løsninger inden for tryghed og beskyttelse – ikke kun ved events, men også i hverdagsmiljøer, hvor tilstedeværelse og tryghed er afgørende.
-
-Vi specialiserer os i overvågning, vejledning og generel supervision, og vores arbejde spænder bredt – fra store offentlige begivenheder og koncerter til institutioner, butikker, boligområder og private virksomheder.
-Vores team består af erfarne og veluddannede sikkerhedsmedarbejdere, der ikke blot håndterer konflikter og forebygger uønsket adfærd, men også fungerer som synlige, servicemindede guider og støttepersoner. Vi tror på, at god sikkerhed bygger på dialog, respekt og tilstedeværelse – ikke blot kontrol.
-
-Frontline Safety lægger vægt på at forstå hver enkelt kundes behov og konteksten, hvori vi opererer. Derfor skræddersyr vi løsninger, der passer til alt fra faste vagtordninger og rådgivning til ad hoc-opgaver og tilsyn i udsatte områder.
-                  <br />
+               Hos Frontline Safety tilbyder vi professionel og pålidelig event sikkerhed til alle typer arrangementer – store som små. Vores team af erfarne vagter sikrer, at dit event forløber trygt og uden forstyrrelser. Vi arbejder tæt sammen med arrangører for at forstå eventets behov og skræddersy sikkerhedsplaner, der dækker alt fra adgangskontrol og overvågning til konflikthåndtering og crowd management.
                   <br />
                   Med Frontline Safety får du en samarbejdspartner, der skaber trygge omgivelser gennem professionel supervision og menneskelig forståelse – uanset om det handler om events, byrum, transportknudepunkter eller andre offentlige og private rum.
 

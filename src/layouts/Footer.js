@@ -22,7 +22,7 @@ const Footer = () => {
 >
   <h5>Follow us</h5>
   <ul style={{ listStyle: "none", padding: 0 }}>
-    <li style={{ marginBottom: "10px" }}>
+    {/* <li style={{ marginBottom: "10px" }}>
       <a
         href="https://www.linkedin.com/company/frontline-safety"
         target="_blank"
@@ -32,7 +32,7 @@ const Footer = () => {
         <i className="lab la-linkedin" style={{ fontSize: "24px", marginRight: "10px" }} />
         LinkedIn
       </a>
-    </li>
+    </li> */}
     <li style={{ marginBottom: "10px" }}>
       <a
         href="https://www.instagram.com/frontline_safety"
@@ -64,12 +64,12 @@ const Footer = () => {
                 <li>
                   <i className="las la-map-marker" />
                   <em>Location :</em>
-                  Vesterbrogade 69, 3. th., DK 1620 København V
+               Suomisvej 4, 1., 1927 Frederiksberg C.
                 </li>
                 <li>
                   <i className="las la-envelope-open-text" />
                   <em>Email Address :</em>
-                  info@manosecurity.dk
+                    info@frontlinesafety.dk
                 </li>
                 <li>
                 

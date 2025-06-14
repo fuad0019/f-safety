@@ -220,7 +220,7 @@ const BlogGrid = () => {
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-               Need a security solution for your business?
+             Brug for en Sikkerhed Service?
                 </h3>
               </div>
             </div>
@@ -230,7 +230,7 @@ const BlogGrid = () => {
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>contact us</span>
+                <span>Kontakt os</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>

@@ -490,7 +490,7 @@ Du er også altid velkommen til at kontakte os, hvis du har spørgsmål og brug 
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-               Need a security solution for your event?
+               Brug for en Sikkerhed Service?
                 </h3>
               </div>
             </div>
@@ -500,7 +500,7 @@ Du er også altid velkommen til at kontakte os, hvis du har spørgsmål og brug 
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>get touch</span>
+                <span>Kontakt os!</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>

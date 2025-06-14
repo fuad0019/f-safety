@@ -230,7 +230,7 @@ const Services = () => {
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Our Core Services
+           kerneydelser
             </div>
             <h3
               className="kf-title element-anim-1 scroll-animate"
@@ -250,7 +250,7 @@ const Services = () => {
                   <img src="images/p.png" alt="image" />
                 </div>
                 <div className="desc">
-                  <h5 className="name">beyond events for supervision - guiding.</h5>
+                  <h5 className="name">Event Sikkerhed</h5>
                   <div className="subname">Hos Frontline Safety er din tryghed vores prioritet. Vi tilbyder professionel eventsikkerhed til alle typer arrangementer – store som små.</div>
                 </div>
               </div>
@@ -265,8 +265,8 @@ const Services = () => {
                   <img src="images/c.png" alt="image" />
                 </div>
                 <div className="desc">
-                  <h5 className="name">Crowd Planning & Management</h5>
-                  <div className="subname">Effektiv crowd management er nøglen til et vellykket og sikkert event. Hos Frontline Safety arbejder vi proaktivt for at styre menneskemængder og undgå farlige situationer, før de opstår.</div>
+                  <h5 className="name">Adgangskontrol og billet</h5>
+                  <div className="subname">Effektiv adgangshåndtering med fokus på sikkerhed, service og hurtig gennemstrømning..</div>
                 </div>
               </div>
             </Link>
@@ -279,8 +279,8 @@ const Services = () => {
                   <img src="images/vip.png" alt="image" />
                 </div>
                 <div className="desc">
-                  <h5 className="name">General Crew</h5>
-                  <div className="subname">Diskretion, professionalisme og situationsfornemmelse er nøgleordene i vores VIP-beskyttelse. Frontline Safety tilbyder skræddersyede sikkerhedsløsninger</div>
+                  <h5 className="name">Generel Mandskab</h5>
+                  <div className="subname"></div>Fleksible og erfarne medarbejdere til praktiske opgaver før, under og efter dit event.
                 </div>
               </div>
             </Link>
@@ -293,8 +293,9 @@ const Services = () => {
                   <img src="images/l9.png" alt="image" />
                 </div>
                 <div className="desc">
-                  <h5 className="name">Protection of stage hands & production crew.</h5>
-                  <div className="subname">En sikker og effektiv indgang er første skridt mod et vellykket event. Hos Frontline Safety tilbyder vi professionel adgangskontrol og moderne billetscanning, der minimerer køer og maksimerer sikkerheden.</div>
+                  <h5 className="name">
+Beskyttelse af scenehænder og produktionspersonale</h5>
+                  <div className="subname">En sikker og effektiv indgang er første skridt mod et vellykket event</div>
                 </div>
               </div>
             </Link>
@@ -320,7 +321,7 @@ const Services = () => {
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-               Need a security service?
+                 Brug for en Sikkerhed Service? 
                 </h3>
               </div>
             </div>
@@ -330,7 +331,7 @@ const Services = () => {
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>get touch </span>
+                <span>Kontakt os! </span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>

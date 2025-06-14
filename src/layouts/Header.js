@@ -89,10 +89,10 @@ const Header = () => {
                   <Link href="about">OM</Link>
                 </li>
             
-                <li>
+                {/* <li>
                 <Link href="team">Jobs</Link>
                 
-                </li>
+                </li> */}
                 <li>
                   <a href="blog-grid">
                   NYHEDER
@@ -143,9 +143,9 @@ const Header = () => {
             {/* <li>
                   <Link href="history">Training</Link>
                 </li> */}
-                <li>
+                {/* <li>
                   <Link href="team">Jobs</Link>
-                </li>
+                </li> */}
            
             <li className="has-children">
               <a href="blog-grid">NYHEDER</a>

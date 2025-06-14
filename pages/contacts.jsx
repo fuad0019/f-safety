@@ -18,80 +18,12 @@ const Contacts = () => {
             data-splitting="chars"
             data-animate="active"
           >
-            Contact Us
+            Kontakt os
           </h1>
         </div>
       </section>
       {/* Section Contacts Info */}
-      <section className="section kf-contacts-info">
-        <div className="container">
-          <div className="kf-contacts-items row">
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
-              <div
-                className="kf-contacts-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  {/*<img src="images/contact_icon1.png" alt="" />*/}
-                  <i className="las la-map-marked-alt" />
-                </div>
-                <div className="desc">
-                  <h5 className="name">Main Location</h5>
-                  <ul>
-                    <li>
-                    Vesterbrogade 69, 3. th., DK <br />
-                    1620 København V
-                    </li>
-                   
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
-              <div
-                className="kf-contacts-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  {/*<img src="images/contact_icon2.png" alt="" />*/}
-                  <i className="las la-envelope-open-text" />
-                </div>
-                <div className="desc">
-                  <h5 className="name">Email Address</h5>
-                  <ul>
-                    <li>
-                    info@manosecurity.dk<br />
-                   
-                    </li>
-                   
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
-              <div
-                className="kf-contacts-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  {/*<img src="images/contact_icon3.png" alt="" />*/}
-                  <i className="las la-headset" />
-                </div>
-                <div className="desc">
-                  <h5 className="name">Phone Number</h5>
-                  <ul>
-                    <li>
-                    Tlf: + 45 70 23 18 24 <br />
-                     
-                    </li>
-                    
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
       {/* Section Contacts Form */}
       <section className="section kf-contacts-form">
         <div className="container">
@@ -157,6 +89,74 @@ const Contacts = () => {
             </form>
             <div className="alert-success" style={{ display: "none" }}>
               <p>Thanks, your message is sent successfully.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="section kf-contacts-info">
+        <div className="container">
+          <div className="kf-contacts-items row">
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
+              <div
+                className="kf-contacts-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image">
+                  {/*<img src="images/contact_icon1.png" alt="" />*/}
+                  <i className="las la-map-marked-alt" />
+                </div>
+                <div className="desc">
+                  <h5 className="name">Main Location</h5>
+                  <ul>
+                    <li>
+                   Suomisvej 4, 1., 1927 Frederiksberg C.
+                    </li>
+                   
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
+              <div
+                className="kf-contacts-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image">
+                  {/*<img src="images/contact_icon2.png" alt="" />*/}
+                  <i className="las la-envelope-open-text" />
+                </div>
+                <div className="desc">
+                  <h5 className="name">Email Address</h5>
+                  <ul>
+                    <li>
+                   info@frontlinesafety.dk<br />
+                   
+                    </li>
+                   
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
+              <div
+                className="kf-contacts-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image">
+                  {/*<img src="images/contact_icon3.png" alt="" />*/}
+                  <i className="las la-headset" />
+                </div>
+                <div className="desc">
+                  <h5 className="name">Phone Number</h5>
+                  <ul>
+                    <li>
+                    Tlf: + 45 70 23 18 24 <br />
+                     
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -29,7 +29,7 @@ vores kerneydelser
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-          Crowd Planning & Management.
+        Adgangskontrol & Billetscanning
             </h3>
           </div>
           <div className="kf-menu-items-2 w-full">
@@ -42,21 +42,12 @@ vores kerneydelser
                 
                 </h1>
                 <div className="text-justify leading-relaxed">
-                Hos Frontline Safety tilbyder vi specialiseret rådgivning og håndtering inden for Crowd Planning & Management – en afgørende del af sikkerheden ved alle typer arrangementer, hvor mange mennesker samles.
+             Effektiv adgangshåndtering med fokus på sikkerhed, service og hurtig gennemstrømning.
+                  <br />
+                  <br />
+             Hos Frontline Safety sikrer vi, at kun autoriserede gæster får adgang til dit arrangement. Vores erfarne personale håndterer adgangskontrol og billetscanning med høj præcision og professionalisme – uanset eventets størrelse.
 
-Vi arbejder strategisk med at analysere publikumsflow, ind- og udgange, flugtveje, barriereopsætning og adfærdsforudsigelse for at sikre, at både gæster og personale færdes trygt og effektivt. Vores team har stor erfaring med at udvikle tilpassede crowd management-planer til både små og store events, herunder koncerter, sportsbegivenheder, festivaler og offentlige forsamlinger.
-                  <br />
-                  <br />
-                  Vi tilbyder:
-                  <ul className="list-disc list-inside my-4">
-                    <li>Risikovurdering og kapacitetsanalyse</li>
-                    <li>Udvikling af crowd management-planer</li>
-                    <li>Praktisk koordinering og instruktion af personale</li>
-                    <li>Synlig og professionel tilstedeværelse under afvikling</li>
-                    <li>Evaluering og opfølgning efter event</li>
-                  </ul>
-                  Frontline Safety kombinerer viden om menneskelig adfærd med praktisk erfaring og stærk kommunikation. Resultatet er sikre, velfungerende arrangementer, hvor publikum føler sig velkomne og trygge – og hvor sikkerheden aldrig overlades til tilfældigheder.
-                  <br />
+Vi skaber en struktureret og sikker indgangsproces, der minimerer ventetid og forhindrer uautoriseret adgang. Med fokus på både sikkerhed og gæsteservice sørger vi for en god start på oplevelsen allerede ved indgangen.
                   <br />
                
                 </div>

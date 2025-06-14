@@ -29,7 +29,7 @@ vores kerneydelser
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-              General Crew
+             Generel Mandskab
             </h3>
           </div>
           <div className="kf-menu-items-2 w-full">
@@ -42,22 +42,11 @@ vores kerneydelser
             
                 </h1>
                 <div className="text-justify leading-relaxed">
-                Hos Frontline Safety tilbyder vi pålideligt og alsidigt General Crew-personale til støtte ved opsætning, afvikling og nedtagning af arrangementer og projekter. Vores mandskab er vant til at arbejde effektivt, fleksibelt og professionelt i skiftende miljøer og under tidspres.
+             Fleksible og erfarne medarbejdere til praktiske opgaver før, under og efter dit event.
                   <br />
-                  Vores crew kan bistå med:
+                Hos Frontline Safety tilbyder vi pålideligt og alsidigt generelt mandskab, der kan assistere med en bred vifte af opgaver i forbindelse med dit arrangement. Vores team står klar til at hjælpe med opbygning, nedtagning, logistik, afspærring, servicefunktioner og meget mere.
 
-
-                  <ul className="list-disc list-inside my-4">
-                    <li>Opbygning og nedtagning af scener, hegn og udstyr</li>
-                    <li>Logistik og materialehåndtering</li>
-                    <li>Backstage-support og teknikassistance</li>
-                    <li>Transport og fordeling af udstyr</li>
-                    <li>Generel bemanding og praktisk hjælp under events</li>
-                  </ul>
-                  Vi forstår vigtigheden af samarbejde, punktlighed og ansvarlighed, og vi sikrer, at vores medarbejdere altid møder forberedte og med den rette indstilling til opgaven.
-                  <br />
-                  <br />
-                  Med Frontline Safety som partner får du ikke blot hænder, men engagerede folk, der bidrager til et professionelt og gnidningsfrit forløb – før, under og efter eventet.
+Vi sørger for, at dit event forløber effektivt og professionelt ved at stille med arbejdskraft, der er vant til at arbejde under tidspres og i samarbejde med både arrangører, teknikere og andre aktører. Uanset størrelsen på dit arrangement, leverer vi et stærkt hold, der får tingene til at fungere i praksis.
                 </div>
               </div>
             </div>
