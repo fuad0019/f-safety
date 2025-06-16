@@ -470,7 +470,7 @@ Du er også altid velkommen til at kontakte os, hvis du har spørgsmål og brug 
         </div>
       </section> */}
       {/* Section Testimonials Carousel */}
-      <TestimonialsCarousel />
+      {/* <TestimonialsCarousel /> */}
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"

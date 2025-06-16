@@ -16,7 +16,7 @@ const BlogGrid = () => {
             data-splitting="chars"
             data-animate="active"
           >
-           News
+           NYHEDER
           </h1>
         </div>
       </section>
@@ -28,13 +28,14 @@ const BlogGrid = () => {
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Get Every Single Update
+            
+             Få hver eneste opdatering
             </div>
             <h3
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-           Keep up to date with Front line news, including latest projects, contract wins, awards and general news from the events industry.
+       Hold dig opdateret med nyheder fra Frontline, herunder de seneste projekter, vundne kontrakter, priser og generelle nyheder fra eventbranchen.
             </h3>
           </div>
           <div className="kf-blog-grid-items row">
