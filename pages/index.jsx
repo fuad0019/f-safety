@@ -34,7 +34,7 @@ const Index = () => {
         >
           {[
             {
-              bg: "images/6.jpeg",
+              bg: "images/6.jpg",
               title: "Professionel sikkerhed \ntil ethvert arrangement",
             },
             {
