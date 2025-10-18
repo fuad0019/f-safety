@@ -92,7 +92,7 @@ const Index = () => {
                 {[
                   { src: "images/7.jpg", label: "Protection of stage hands & production crew." },
                   { src: "images/crowd.jpeg", label: "General Crew." },
-                  { src: "images/6.jpeg", label: "beyond events for supervision - guiding." },
+                  { src: "images/6.jpg", label: "beyond events for supervision - guiding." },
                   { src: "images/8.jpeg", label: " Crowd Planning & Management." },
                 ].map((item, i) => (
                   <div className="kf-category-item" key={i}>
@@ -131,7 +131,7 @@ const Index = () => {
       </section>
 
       {/* Section CTA */}
-      <section className="section kf-cta kf-parallax" style={{ backgroundImage: "url(images/6.jpeg)" }}>
+      <section className="section kf-cta kf-parallax" style={{ backgroundImage: "url(images/6.jpg)" }}>
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
